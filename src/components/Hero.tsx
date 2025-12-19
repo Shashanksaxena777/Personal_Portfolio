@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Phone, Download } from 'lucide-react';
 import resumeData from '../data/resume.json';
+import resumePdf from '../assets/resume.pdf';
 import profileImage from '../assets/profile.png';
 
 export default function Hero() {
@@ -72,7 +73,7 @@ export default function Hero() {
                             transition={{ delay: 0.6 }}
                         >
                             <a
-                                href="/resume.pdf"
+                                href={resumePdf}
                                 download="SHASHANK_SAXENA_CV.pdf"
                                 className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-medium hover:opacity-90 transition-all hover:scale-105 flex items-center gap-2 shadow-lg shadow-blue-500/25 group"
                             >
