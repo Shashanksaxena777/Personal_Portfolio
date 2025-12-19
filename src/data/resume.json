@@ -1,0 +1,76 @@
+{
+  "personal": {
+    "name": "SHASHANK SAXENA",
+    "title": "Full-Stack Software Developer",
+    "phone": "+91 9140317708",
+    "email": "Shashanksaxena010@gmail.com",
+    "location": "Kolkata, India",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/shashank-saxena-a02561228/",
+      "github": "https://github.com/Shashanksaxena777",
+      "stackoverflow": "https://stackoverflow.com/users/22377147/shashank-saxena"
+    }
+  },
+  "summary": "Full-Stack Software Developer with nearly 2 years of experience in fintech, specializing in real-time data platforms and AI-powered analytics using Python, React, Nest.js, TypeScript, PostgreSQL, Django DRF, and Docker.",
+  "experience": [
+    {
+      "company": "FeedSense.ai",
+      "position": "Executive - Software Developer",
+      "location": "Kolkata",
+      "period": "Feb 2024 – Present",
+      "achievements": [
+        "Built and optimized FeedSense.ai, a real-time stock analytics platform using React, Nest.js, Node.js, and TypeScript, reducing system latency by 40% and enhancing scalability.",
+        "Integrated AI-driven equity prediction models for Nifty 50 and large-cap stocks, improving forecast accuracy by 25%.",
+        "Worked on LLM-powered financial insights using RAG pipelines with Chroma vector database, enabling contextual query responses and personalized analytics.",
+        "Implemented real-time data pipelines with WebSocket.io and Redis, enabling seamless processing of live market data for instant analytics.",
+        "Led architecture and scaling of FeedSenseV2, launching a revenue-generating analytics tool."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": ["C++", "Python", "JavaScript", "TypeScript"],
+    "Frameworks / Libraries": ["React.js", "Node.js", "Express.js", "GraphQL", "Redux", "FastAPI", "Django REST Framework"],
+    "Databases": ["PostgreSQL", "Redis"],
+    "Tools / Platforms": ["Docker", "Git", "Postman API", "WebSocket.io", "Visual Studio", "Apache Kafka"],
+    "Problem Solving": ["Data Structures Algorithms", "System Design"]
+  },
+  "projects": [
+    {
+      "name": "Budget Tracker – AI-Powered Personal Finance Web App",
+      "subtitle": "React + Django Full-Stack Application",
+      "link": "https://budget-tracker-frontend-nine.vercel.app/",
+      "description": "Full-stack application for expense tracking, budget planning, and interactive charts (D3.js). Integrated AI Advisor (Google Gemini) for personalized insights and savings tips. Secure authentication with responsive UI (Ant Design); deployed on Vercel (frontend) and Railway (backend).",
+      "tech": ["React (TypeScript)", "Vite", "Ant Design", "Axios", "D3.js", "Django REST Framework", "PostgreSQL"],
+      "terminalDescription": "$ Initializing Budget Tracker...\n\n> Loading AI-Powered Personal Finance Platform\n> Framework: React + Django Full-Stack\n\n[✓] Expense tracking system activated\n[✓] Budget planning module loaded\n[✓] Interactive D3.js charts rendered\n[✓] AI Advisor (Google Gemini) integrated\n[✓] Personalized insights engine: ONLINE\n[✓] Savings recommendations: ACTIVE\n\n> Security Features:\n  - Secure authentication implemented\n  - User data encryption: ENABLED\n\n> UI/UX:\n  - Ant Design components loaded\n  - Responsive design: ALL DEVICES\n\n> Deployment Status:\n  - Frontend: Vercel [LIVE]\n  - Backend: Railway [OPERATIONAL]\n\n> Tech Stack:\n  React (TypeScript) | Vite | Ant Design\n  Axios | D3.js | Django REST Framework\n  PostgreSQL\n\n$ System ready. Helping users manage finances smarter."
+    },
+    {
+      "name": "FeedTick Portfolio – Real-Time Stock Predictor",
+      "link": "https://feedtick-portfolio.vercel.app/",
+      "subtitle": "Financial Data Analytics Platform",
+      "description": "Containerized platform for live market data streaming and trend prediction with ML models. Real-time pipelines and interactive charts for instant analytics.",
+      "tech": ["Nest.js (React)", "TypeScript", "Node.js", "Socket.io", "Redis", "PostgreSQL", "Python (TensorFlow)"],
+      "terminalDescription": "$ Starting FeedTick Portfolio...\n\n> Initializing Real-Time Stock Predictor\n> Platform: Financial Data Analytics\n\n[✓] Docker containers: RUNNING\n[✓] Live market data stream: CONNECTED\n[✓] WebSocket.io: ACTIVE\n[✓] Redis cache: OPERATIONAL\n\n> Machine Learning Pipeline:\n  - TensorFlow models loaded\n  - Trend prediction: ENABLED\n  - Accuracy: 25% improvement\n  - Processing: REAL-TIME\n\n> Data Processing:\n  - Live market feeds: STREAMING\n  - Data pipelines: OPTIMIZED\n  - Latency reduction: 40%\n\n> Analytics Dashboard:\n  - Interactive charts: RENDERED\n  - Real-time updates: ACTIVE\n  - User insights: PERSONALIZED\n\n> Tech Stack:\n  Nest.js (React) | TypeScript | Node.js\n  Socket.io | Redis | PostgreSQL\n  Python (TensorFlow)\n\n$ Platform operational. Market predictions in progress."
+    },
+    {
+      "name": "Avatar 2.0 – Virtual Voice Assistant",
+      "subtitle": "AI & Automation Project",
+      "link": "https://avatar-2-0.vercel.app/",
+      "description": "Virtual assistant supporting voice interaction, email automation, and AI-generated images.",
+      "tech": ["Python", "Botpress.io", "Selenium"],
+      "terminalDescription": "$ Booting Avatar 2.0...\n\n> Loading Virtual Voice Assistant\n> Mode: AI & Automation\n\n[✓] Voice recognition: INITIALIZED\n[✓] Natural language processing: ACTIVE\n[✓] Botpress.io integration: CONNECTED\n\n> Core Features:\n  - Voice interaction: ENABLED\n  - Speech-to-text: OPERATIONAL\n  - Text-to-speech: READY\n\n> Automation Modules:\n  - Email automation: ACTIVE\n  - Selenium web driver: LOADED\n  - Task scheduling: CONFIGURED\n\n> AI Capabilities:\n  - Image generation: ENABLED\n  - Context understanding: ADVANCED\n  - Multi-task handling: OPTIMIZED\n\n> Tech Stack:\n  Python | Botpress.io | Selenium\n\n> Status: READY FOR COMMANDS\n\n$ Avatar 2.0 online. How can I assist you today?"
+    }
+  ],
+  "awards": [
+    "Ranked 1st in college for academic excellence with the highest SGPA in 2nd and 3rd year",
+    "Won KIT Academic Excellence Award for three consecutive years (2023, 2022, 2021)",
+    "Awarded Junior Scientist Award (2019) at School",
+    "Ranked 51st in CodingNinjas Monthly Contest 17 all over India",
+    "Ranked 323rd in Codehaven - Central India's Biggest Coding Challenge"
+  ],
+  "education": {
+    "institution": "Kanpur Institute of Technology",
+    "degree": "Bachelor of Technology, Computer Science",
+    "period": "Aug 2020 – Jul 2024",
+    "cgpa": "8.8/10"
+  }
+}
