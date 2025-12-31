@@ -11,7 +11,7 @@ import {
 } from "react-icons/si";
 import { FaCode, FaSitemap, FaLaptopCode, FaServer, FaDatabase, FaTools, FaBrain } from "react-icons/fa";
 import { IconType } from 'react-icons';
-
+import { FaAws } from "react-icons/fa";
 // Map skill names to icons
 const skillIcons: Record<string, IconType> = {
   "C++": SiCplusplus,
@@ -27,6 +27,7 @@ const skillIcons: Record<string, IconType> = {
   "Django REST Framework": SiDjango,
   "PostgreSQL": SiPostgresql,
   "Redis": SiRedis,
+  "AWS": FaAws,
   "Docker": SiDocker,
   "Git": SiGit,
   "Postman API": SiPostman,
@@ -52,6 +53,7 @@ const skillColors: Record<string, string> = {
   "Django REST Framework": "#008150ff",
   "PostgreSQL": "#4169E1",
   "Redis": "#DC382D",
+  "AWS": "#fc7544ff",
   "Docker": "#2496ED",
   "Git": "#F05032",
   "Postman API": "#FF6C37",

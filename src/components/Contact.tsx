@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Mail, Phone, Github, Linkedin, ExternalLink } from 'lucide-react';
-import { Instagram, MessageCircle, Send } from 'lucide-react';
+import { Instagram, Send } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 import resumeData from '../data/resume.json';
 
 export default function Contact() {
@@ -95,44 +96,44 @@ export default function Contact() {
         </motion.div>
       </div>
       {/* Social Contacts */}
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={isInView ? { opacity: 1, y: 0 } : {}}
-  transition={{ duration: 0.6, delay: 0.5 }}
-  className="mt-12 flex justify-center"
->
-  <div className="flex gap-6">
-    {/* Instagram */}
-    <a
-      href="https://instagram.com/meshashanksaxena"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="p-4 bg-[#1A1A1A]/50 border border-[#27272A] rounded-full hover:scale-110 transition-all"
-    >
-      <Instagram size={26} className="text-pink-500" />
-    </a>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="mt-12 flex justify-center"
+      >
+        <div className="flex gap-6">
+          {/* Instagram */}
+          <a
+            href="https://instagram.com/meshashanksaxena"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-4 bg-[#1A1A1A]/50 border border-[#27272A] rounded-full hover:scale-110 transition-all"
+          >
+            <Instagram size={26} className="text-pink-500" />
+          </a>
 
-    {/* WhatsApp */}
-    <a
-      href="https://wa.me/919140317708"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="p-4 bg-[#1A1A1A]/50 border border-[#27272A] rounded-full hover:scale-110 transition-all"
-    >
-      <MessageCircle size={26} className="text-green-500" />
-    </a>
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/919140317708"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-4 bg-[#1A1A1A]/50 border border-[#27272A] rounded-full hover:scale-110 transition-all"
+          >
+            <FaWhatsapp size={26} className="text-green-500" />
+          </a>
 
-    {/* Telegram */}
-    <a
-      href="https://t.me/9140317708"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="p-4 bg-[#1A1A1A]/50 border border-[#27272A] rounded-full hover:scale-110 transition-all"
-    >
-      <Send size={26} className="text-sky-400" />
-    </a>
-  </div>
-</motion.div>
+          {/* Telegram */}
+          <a
+            href="https://t.me/9140317708"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-4 bg-[#1A1A1A]/50 border border-[#27272A] rounded-full hover:scale-110 transition-all"
+          >
+            <Send size={26} className="text-sky-400" />
+          </a>
+        </div>
+      </motion.div>
 
     </section>
   );

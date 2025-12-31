@@ -31,7 +31,7 @@
     "Programming Languages": ["C++", "Python", "JavaScript", "TypeScript"],
     "Frameworks / Libraries": ["React.js", "Node.js", "Express.js", "GraphQL", "Redux", "FastAPI", "Django REST Framework"],
     "Databases": ["PostgreSQL", "Redis"],
-    "Tools / Platforms": ["Docker", "Git", "Postman API", "WebSocket.io", "Visual Studio", "Apache Kafka"],
+    "Tools / Platforms": ["AWS", "Docker", "Git", "Postman API", "WebSocket.io", "Visual Studio", "Apache Kafka"],
     "Problem Solving": ["Data Structures Algorithms", "System Design"]
   },
   "projects": [
@@ -62,7 +62,7 @@
   ],
   "awards": [
     "Ranked 1st in college for academic excellence with the highest SGPA in 2nd and 3rd year",
-    "Won KIT Academic Excellence Award for three consecutive years (2023, 2022, 2021)",
+    "Won KIT Academic Excellence Award for three consecutive years (2024, 2023, 2022, 2021)",
     "Awarded Junior Scientist Award (2019) at School",
     "Ranked 51st in CodingNinjas Monthly Contest 17 all over India",
     "Ranked 323rd in Codehaven - Central India's Biggest Coding Challenge"

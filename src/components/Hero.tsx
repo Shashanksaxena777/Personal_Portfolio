@@ -10,9 +10,20 @@ export default function Hero() {
     return (
         <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden py-20 lg:py-0">
             {/* Background Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0A] via-[#1A1A2E] to-[#0A0A0A]">
-                <div className="absolute inset-0 bg-grid-white/[0.02]"></div>
-            </div>
+            <div
+  className="absolute inset-0"
+  style={{
+    background: `
+      radial-gradient(circle at 50% 85%, rgba(34,197,94,0.25), transparent 45%),
+      radial-gradient(circle at 20% 30%, rgba(34,197,94,0.12), transparent 40%),
+      linear-gradient(180deg, #020617 0%, #000000 100%)
+    `
+  }}
+>
+  <div className="absolute inset-0 bg-grid-white/[0.03]" />
+</div>
+
+
 
             {/* Animated Gradient Orbs */}
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#3B82F6]/20 rounded-full blur-3xl animate-pulse"></div>
